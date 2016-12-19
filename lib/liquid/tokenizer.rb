@@ -13,7 +13,7 @@ module Liquid
       @line_number += token.count("\n") if @line_number && token
       token
     end
-    
+
     def unshift(line)
       @tokens.unshift(line)
     end
